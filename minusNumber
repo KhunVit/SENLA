@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public  class Test{	
+	
+	public static void main(String args[]) {
+		System.out.print("Для удаления чисел, введите текст : ");
+		Scanner scn = new Scanner(System.in);
+		String str=scn.next();
+		String replStr1 = str.replace('0', ' '); 
+		String replStr2 = replStr1.replace('1', ' ');
+		String replStr3 = replStr2.replace('2', ' ');
+		String replStr4 = replStr3.replace('3', ' ');
+		String replStr5 = replStr4.replace('4', ' ');
+		String replStr6 = replStr5.replace('5', ' ');
+		String replStr7 = replStr6.replace('6', ' ');
+		String replStr8 = replStr7.replace('7', ' ');
+		String replStr9 = replStr8.replace('8', ' ');
+		String needStr = replStr9.replace('9', ' ');
+		
+		        System.out.print(needStr);
+		    }
